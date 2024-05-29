@@ -1,0 +1,14 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
+p {
+  font-size: clamp (1rem, 1.5vw, 1.5rem);
+  letter-spacing: 2px;
+}

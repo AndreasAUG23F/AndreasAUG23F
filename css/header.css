@@ -1,0 +1,52 @@
+.headerImg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.headerImg img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.headerNav {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerNav {
+  position: absolute;
+  top: 0;
+  left: 50;
+  width: 50%;
+  padding: 10px;
+}
+
+.headerNav a {
+  color: #5470d3;
+  transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out,
+    border-radius 0.5s ease-in-out;
+  text-decoration: none;
+  color: #5470d3;
+  font-weight: bold;
+}
+
+.headerNav a:hover {
+  border-radius: 5px;
+  font-size: larger;
+}
