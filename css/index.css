@@ -7,7 +7,7 @@
 .introSection {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 100%;
   margin-top: 50px;
 }
 .introHeader,
@@ -23,6 +23,7 @@
 .designHeader h1 {
   font-size: 3.5em;
   font-weight: 900;
+  margin-bottom: 10%;
 }
 
 .introSection p {
@@ -33,15 +34,15 @@
 .introLeft {
   display: flex;
   flex-direction: column;
-  margin-right: 250px;
+  margin-right: 150px;
   margin-left: 50px;
-  width: 100%;
-  max-width: 500px;
+  width: 90%;
+  max-width: 100%;
 }
 
 .introText {
   width: 170%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .introText p {
@@ -50,6 +51,17 @@
 
 .introText button {
   margin: 20px;
+  background-color: #5470d3;
+}
+
+.introText button a {
+  color: white;
+  text-decoration: none;
+}
+
+.introText button:hover {
+  transform: scale(1.05);
+  background-color: #5470d3;
 }
 .introRight {
   display: flex;
@@ -205,9 +217,9 @@
   margin: 20px;
 }
 
-.contact button {
+/* .contact button,
+.linkedInBtn {
   display: block;
-
   background-color: #ffffff;
   border-radius: 20px;
   color: #333;
@@ -218,13 +230,42 @@
   transition: transform 0.5s;
 }
 
-.contact button a {
+.contact button a,
+.linkedInBtn a {
+  text-decoration: none;
   color: #5470d3;
   text-decoration: none;
 }
 
-.contact button:hover {
+.contact button:hover,
+.linkedInBtn:hover {
   transform: scale(1.05);
+} */
+
+/* Style for the button elements */
+.button {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #5470d3;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.5s;
+  border: none;
+  margin: 10px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
 }
 
 /*CONTACT SECTION END*/

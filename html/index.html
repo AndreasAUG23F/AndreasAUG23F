@@ -26,7 +26,6 @@
                     </ul>
                 </li>
                 <li><a href="../html/about.html">ABOUT</a></li>
-                <li> <a href="#">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -195,19 +194,14 @@
                 I am always open to new and exciting projects, and I love hearing about what other developers and designers are working on. If you have a project you think I could contribute to, or if you just want to discuss technology and design, feel free to reach out.
                 Connect with me on LinkedIn or check out my work on GitHub. I look forward to hearing from you and exploring potential collaborations.
             </p>
-            <div class="btn-container">
-                <div class=""></div>
-                <button class="button">
-                    <a href="#">GitHub</a>
-                </button>
-                <div class="linkedInBtn">
-                    <button class="button">
-                        <a href="#">LINKEDIN</a>
-                    </button>
-                </div>
-            </div>
         </div>
-    </section>
+            <div class="btn-container">
+                <button class="button" onclick="window.location.href='https://github.com/AndreasAUG23F/AndreasAUG23F.git'">GitHub</button>
+                <button class="button" onclick="window.location.href='https://www.linkedin.com/in/andreas-abrahamsen-450292133'">LinkedIn</button>
+            </div>
+        </div>            
+            
+        </section>
 
 
     <!-- CONTACT SECTION END-->
@@ -221,18 +215,26 @@
 </div>
 
 
-    <footer>
-        <div class="footerImg">
-            <img src="../images/headerImage.png" alt="header">
-        </div>
+<footer>
+    <div class="footerImg">
+        <img src="../images/footer-banner.png" alt="header">
+    </div>
 
-        <nav class="footerNav">
-            <ul>
-                <li><a href="../html/index.html">HOME</a></li>
-                <li><a href="../html/projects">PROJECTS</a></li>
-                <li><a href="#">ABOUT</a></li>
-            </ul>
-    </footer>
+    <nav class="footerNav">
+        <ul>
+            <li><a href="../html/index.html">HOME</a></li>
+            <li class="dropdown">
+                <a href="../html/index.html">PROJECTS</a>
+                <ul class="dropdown-content">
+                    <li><a href="../html/personal">PERSONAL</a></li>
+                    <li><a href="../html/noroff.html">NOROFF</a></li>
+                </ul>
+            </li>
+            <li><a href="../html/about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+</footer>
+
     
 </body>
 </html>

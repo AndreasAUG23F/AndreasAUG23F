@@ -6,26 +6,54 @@
 }
 
 .footerNav {
-  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 20px;
+  flex-direction: column; /* Endrer retning til kolonne */
+  align-items: flex-end; /* Justerer elementene til høyre */
+  position: relative; /* Legger til relativ posisjon for å plassere lenkene oppå bildet */
+  z-index: 1; /* Plasserer lenkene over bildet */
 }
 
 .footerNav ul {
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.footerNav li {
-  list-style: none;
+.footerNav ul li {
+  display: block;
 }
 
-.footerNav a {
-  color: #5470d3;
-  font-weight: bold;
+.footerNav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
   text-decoration: none;
-  padding: 5px 0;
-  transition: color 0.3s;
+  transition: all 0.3s ease;
+}
+
+.footerNav ul li a:hover {
+  transform: scale(1.1);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li:hover {
+  background-color: #ffffff;
 }

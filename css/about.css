@@ -2,12 +2,128 @@
 @import url(../css/footer.css);
 @import url(../css/styles.css);
 
-.professionalBackground,
-.getInTouch {
+/* .aboutMeSection,
+.personalSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #5470d3;
 }
 
-.professionalBackground .aboutText,
-.getInTouch {
+.aboutHeader,
+.personalHeader {
   color: white;
+  margin-top: 50px;
+}
+
+.aboutHeader h2,
+.personalHeader h2 {
+  font-size: 3.5em;
+  font-weight: 900;
+}
+
+.aboutText,
+.personalText {
+  width: 90%;
+}
+
+.aboutText p,
+.personalText p {
+  line-height: 1.8;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.backgroundSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 50px;
+}
+ */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.animate-on-scroll {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20%;
+}
+
+section {
+  border-radius: 10px;
+  padding: 15px; /* Increased padding */
+  text-align: center;
+  width: 35%; /* Adjusted width */
+  height: auto; /* Height auto to adjust based on content */
+}
+
+.aboutHeader,
+.backgroundHeader,
+.personalHeader,
+.getInTouchHeader {
+  margin-top: 10%;
+  margin-bottom: 5%; /* Adjusted margin */
+}
+
+.aboutHeader h1,
+.backgroundHeader h2,
+.personalHeader h2,
+.getInTouchHeader h2 {
+  color: #5470d3;
+  margin: 0;
+  font-size: 2.9rem; /* Adjusted font size */
+}
+
+.aboutText,
+.backgroundText,
+.personalText,
+.getInTouchText {
+  color: #5470d3;
+  font-size: 1.3rem;
+  line-height: 1.5vw;
+  text-align: left;
+}
+
+.icon {
+  display: block;
+  margin: 0 auto 10px auto;
+  font-size: 24px;
+  color: #5470d3;
+}
+
+.button {
+  display: inline-block;
+  background-color: #5470d3;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.5s;
+  border: none;
+  margin: 10px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background-color: #5470d3;
+}
+
+@media (max-width: 768px) {
+  section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
