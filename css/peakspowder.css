@@ -1,0 +1,8 @@
+@import url(../css/styles.css);
+@import url(../css/header.css);
+@import url(../css/footer.css);
+
+main {
+  color: #5470d3;
+  width: 100%;
+}

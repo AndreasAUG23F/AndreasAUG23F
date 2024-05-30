@@ -7,8 +7,8 @@
 .introSection {
   display: flex;
   flex-direction: row;
+  width: 50%;
   margin-top: 50px;
-  height: 500px;
 }
 .introHeader,
 .fedHeader,
@@ -33,19 +33,23 @@
 .introLeft {
   display: flex;
   flex-direction: column;
-  margin-right: 150px;
+  margin-right: 250px;
   margin-left: 50px;
   width: 100%;
-  max-width: 100%;
+  max-width: 500px;
 }
 
 .introText {
   width: 170%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .introText p {
   letter-spacing: 2px;
+}
+
+.introText button {
+  margin: 20px;
 }
 .introRight {
   display: flex;
@@ -55,7 +59,7 @@
 
 .fedText,
 .designText {
-  width: 100%;
+  width: 80%;
   margin-bottom: 20px;
 }
 
@@ -166,4 +170,88 @@
   transform: scale(1.1);
 }
 
-/*PROJECTS SECTION START*/
+/*PROJECTS SECTION END*/
+
+/*CONTACT SECTION START*/
+
+.contact {
+  background-color: #5470d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+.contactHeader h2 {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contactText {
+  max-width: 800px;
+  margin: 40px 0;
+}
+
+.contactText p {
+  font-size: 1.2em;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.contactText button {
+  margin: 20px;
+}
+
+.contact button {
+  display: block;
+
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #333;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 20px 40px;
+  margin-left: 40%;
+  transition: transform 0.5s;
+}
+
+.contact button a {
+  color: #5470d3;
+  text-decoration: none;
+}
+
+.contact button:hover {
+  transform: scale(1.05);
+}
+
+/*CONTACT SECTION END*/
+
+/* Animasjon for å få innholdet til å bli skarpt */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* Legg til fadeIn-animasjonen til hele dokumentet */
+body * {
+  animation: fadeIn 1.5s ease-out;
+}
+
+.blur-out {
+  opacity: 0;
+  filter: blur(10px);
+  transition: opacity 1.5s ease-out, filter 1.5s ease-out;
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-out forwards;
+}

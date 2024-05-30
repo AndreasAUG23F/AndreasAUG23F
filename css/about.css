@@ -1,0 +1,13 @@
+@import url(../css/header.css);
+@import url(../css/footer.css);
+@import url(../css/styles.css);
+
+.professionalBackground,
+.getInTouch {
+  background-color: #5470d3;
+}
+
+.professionalBackground .aboutText,
+.getInTouch {
+  color: white;
+}

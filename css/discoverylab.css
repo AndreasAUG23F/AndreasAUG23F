@@ -3,5 +3,6 @@
 @import url(../css/styles.css);
 
 main {
-  background-image: url(../images/DL-BI.png);
+  color: #5470d3;
+  width: 100%;
 }
