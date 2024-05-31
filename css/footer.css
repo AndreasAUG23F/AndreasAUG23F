@@ -5,55 +5,66 @@
   object-position: center;
 }
 
+footer {
+  position: relative;
+}
+
 .footerNav {
-  display: flex;
-  flex-direction: column; /* Endrer retning til kolonne */
-  align-items: flex-end; /* Justerer elementene til høyre */
-  position: relative; /* Legger til relativ posisjon for å plassere lenkene oppå bildet */
-  z-index: 1; /* Plasserer lenkene over bildet */
+  position: absolute;
+  top: 50%;
+  right: 10%; /* Juster denne verdien for å flytte navigasjonen nærmere eller lenger fra høyre kant */
+  transform: translateY(-50%);
 }
 
 .footerNav ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.footerNav ul li {
-  display: block;
+.footerNav li {
+  margin: 10px 0; /* Plass mellom elementene */
 }
 
-.footerNav ul li a {
-  display: block;
-  padding: 10px;
-  color: #fff;
+.footerNav a {
+  color: white; /* Juster etter behov for synlighet */
   text-decoration: none;
-  transition: all 0.3s ease;
+  font-size: 3vw; /* Juster etter behov */
+  transition: transform 0.3s; /* Smooth transition effect */
 }
 
-.footerNav ul li a:hover {
-  transform: scale(1.1);
+.footerNav a:hover {
+  transform: scale(1.1); /* Scale up by 10% on hover */
 }
 
-.dropdown-content {
+.footerNav .dropdown {
+  position: relative;
+}
+
+.footerNav .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #f7cca5; /* Juster etter behov */
   min-width: 160px;
   z-index: 1;
+  right: 0; /* Juster etter behov */
 }
 
-.dropdown:hover .dropdown-content {
+.footerNav .dropdown-content li {
   display: block;
 }
 
-.dropdown-content li {
-  color: #fff;
+.footerNav .dropdown-content a {
+  color: white; /* Juster etter behov */
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  text-align: left;
 }
 
-.dropdown-content li:hover {
-  background-color: #ffffff;
+.footerNav .dropdown:hover .dropdown-content {
+  display: block;
 }

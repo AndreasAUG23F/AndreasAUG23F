@@ -2,45 +2,9 @@
 @import url(../css/footer.css);
 @import url(../css/styles.css);
 
-/* .aboutMeSection,
-.personalSection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #5470d3;
+p {
+  font-weight: lighter;
 }
-
-.aboutHeader,
-.personalHeader {
-  color: white;
-  margin-top: 50px;
-}
-
-.aboutHeader h2,
-.personalHeader h2 {
-  font-size: 3.5em;
-  font-weight: 900;
-}
-
-.aboutText,
-.personalText {
-  width: 90%;
-}
-
-.aboutText p,
-.personalText p {
-  line-height: 1.8;
-  color: white;
-  margin-bottom: 50px;
-}
-
-.backgroundSection {
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-  padding: 50px;
-}
- */
 
 body {
   font-family: Arial, sans-serif;
@@ -56,10 +20,10 @@ body {
 
 section {
   border-radius: 10px;
-  padding: 15px; /* Increased padding */
+  padding: 15px;
   text-align: center;
-  width: 35%; /* Adjusted width */
-  height: auto; /* Height auto to adjust based on content */
+  width: 35%;
+  height: auto;
 }
 
 .aboutHeader,
@@ -67,7 +31,7 @@ section {
 .personalHeader,
 .getInTouchHeader {
   margin-top: 10%;
-  margin-bottom: 5%; /* Adjusted margin */
+  margin-bottom: 5%;
 }
 
 .aboutHeader h1,
@@ -76,7 +40,7 @@ section {
 .getInTouchHeader h2 {
   color: #5470d3;
   margin: 0;
-  font-size: 2.9rem; /* Adjusted font size */
+  font-size: 2.9rem;
 }
 
 .aboutText,

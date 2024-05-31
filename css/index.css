@@ -14,7 +14,7 @@
 .fedHeader,
 .designHeader {
   color: #5470d3;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   margin-top: 30px;
 }
 
@@ -23,7 +23,6 @@
 .designHeader h1 {
   font-size: 3.5em;
   font-weight: 900;
-  margin-bottom: 10%;
 }
 
 .introSection p {
@@ -41,7 +40,7 @@
 }
 
 .introText {
-  width: 170%;
+  width: 160%;
   margin-bottom: 20px;
 }
 
@@ -217,32 +216,6 @@
   margin: 20px;
 }
 
-/* .contact button,
-.linkedInBtn {
-  display: block;
-  background-color: #ffffff;
-  border-radius: 20px;
-  color: #333;
-  cursor: pointer;
-  font-size: 2rem;
-  padding: 20px 40px;
-  margin-left: 40%;
-  transition: transform 0.5s;
-}
-
-.contact button a,
-.linkedInBtn a {
-  text-decoration: none;
-  color: #5470d3;
-  text-decoration: none;
-}
-
-.contact button:hover,
-.linkedInBtn:hover {
-  transform: scale(1.05);
-} */
-
-/* Style for the button elements */
 .button {
   display: inline-block;
   background-color: #ffffff;
@@ -270,7 +243,6 @@
 
 /*CONTACT SECTION END*/
 
-/* Animasjon for å få innholdet til å bli skarpt */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -282,7 +254,6 @@
   }
 }
 
-/* Legg til fadeIn-animasjonen til hele dokumentet */
 body * {
   animation: fadeIn 1.5s ease-out;
 }
@@ -295,4 +266,75 @@ body * {
 
 .fade-in {
   animation: fadeIn 1.5s ease-out forwards;
+}
+
+@media (max-width: 480px) {
+  .introSection {
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  .introLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 15%;
+    width: 100%;
+  }
+
+  .introSection h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-left: 45%;
+  }
+
+  .introText p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+
+  .introText button {
+    margin-left: 30%;
+    background-color: #5470d3;
+    padding: 10px 20px; /* Adding padding to the button */
+    border: none; /* Optional: Remove border if any */
+    font-size: 1em; /* Ensuring the button text is of readable size */
+  }
+
+  .introText button a {
+    font-size: small;
+    color: white;
+    text-decoration: none;
+  }
+
+  .introRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+    width: 100%;
+    height: 100vh; /* Full height to center vertically */
+  }
+
+  .introRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-right: 200px;
+    width: 90%;
+  }
+
+  .fedText,
+  .designText {
+    width: auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.5em;
+    line-height: 1em;
+  }
 }
