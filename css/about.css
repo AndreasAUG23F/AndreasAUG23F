@@ -85,9 +85,51 @@ section {
   background-color: #5470d3;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   section {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 80%;
+  }
+
+  .animate-on-scroll {
+    gap: 5%;
+  }
+
+  .aboutHeader,
+  .backgroundHeader,
+  .personalHeader,
+  .getInTouchHeader {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .aboutHeader h1,
+  .backgroundHeader h2,
+  .personalHeader h2,
+  .getInTouchHeader h2 {
+    font-size: 2.5rem;
+  }
+
+  .aboutText,
+  .backgroundText,
+  .personalText,
+  .getInTouchText {
+    font-size: 1.1rem;
+  }
+
+  .aboutText p,
+  .backgroundText p,
+  .personalText p,
+  .getInTouchText p {
+    font-size: 1rem;
+    line-height: normal;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .button {
+    font-size: 1.5rem;
+    padding: 15px 30px;
   }
 }

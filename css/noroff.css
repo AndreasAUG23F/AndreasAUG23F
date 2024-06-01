@@ -78,3 +78,89 @@ main {
 .projectImage img:hover {
   transform: scale(1.1);
 }
+
+/* media queries for big screens */
+
+@media screen and (min-width: 1024px) {
+  main {
+    margin: 5% 5%;
+  }
+
+  .introHeader {
+    margin-top: 50px;
+  }
+
+  .introHeader h1 {
+    font-size: 4em;
+    width: 100%;
+  }
+
+  .introText {
+    margin-top: 5%;
+    width: 90%;
+  }
+
+  .introText p {
+    font-size: 2.2em;
+  }
+
+  .cards {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+
+  .projectCard {
+    width: 800px;
+    height: auto;
+  }
+
+  .projectImage img {
+    width: 600px;
+    max-width: 800px;
+  }
+}
+
+/* media queries for iphone x */
+
+@media screen and (max-width: 375px) {
+  .introHeader {
+    margin-top: 50px;
+  }
+
+  .introHeader h1 {
+    display: flex;
+    justify-content: left;
+    padding-right: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+  }
+
+  .introText {
+    margin-top: 5%;
+    width: 80%;
+  }
+
+  .introText p {
+    font-size: 1em;
+  }
+
+  .cards {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+
+  .projectCard {
+    width: 300px;
+    height: auto;
+  }
+
+  .projectImage img {
+    width: 200px;
+    max-width: 300px;
+  }
+}

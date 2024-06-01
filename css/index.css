@@ -271,6 +271,8 @@ body * {
   animation: fadeIn 1.5s ease-out forwards;
 }
 
+/* BIG SCREENS STYLES */
+
 @media (min-width: 2000px) {
   .introText p {
     max-width: 70%;
@@ -286,6 +288,8 @@ body * {
     max-width: 800px;
   }
 }
+
+/* MOBILE STYLES */
 
 @media (max-width: 480px) {
   .introSection {
@@ -306,23 +310,18 @@ body * {
   .introText p {
     text-align: left;
     font-weight: lighter;
-    line-height: 1em;
-    letter-spacing: 0px;
+    font-size: 1em;
   }
 
   .introHeader h1 {
-    font-size: 2em;
-    text-align: center;
-    margin-left: 35%;
-  }
-
-  .introSection h1 {
-    font-size: 2em;
-    text-align: left;
+    display: flex;
+    justify-content: left;
+    font-size: 3em;
+    width: 100%;
+    max-width: 100%;
   }
 
   .introText button {
-    margin-left: 30%;
     background-color: #5470d3;
     padding: 10px 20px; /* Adding padding to the button */
     border: none; /* Optional: Remove border if any */
@@ -330,7 +329,7 @@ body * {
   }
 
   .introText button a {
-    font-size: small;
+    font-size: 2em;
     color: white;
     text-decoration: none;
   }
@@ -338,13 +337,103 @@ body * {
   .introRight {
     display: flex;
     justify-content: left;
-    margin-right: 100px;
-    width: 90%;
+    width: 400px;
+    max-width: 375px;
+    padding: 0%;
   }
 
-  .fedHeader h1 {
+  h2 {
     font-size: 2em;
+    width: 420px;
+  }
+
+  .fedHeader h2,
+  .designHeader h2 {
+    font-size: 1.5em;
     text-align: center;
-    margin-left: 35%;
+    margin: 0 auto;
+    width: 100%; /* Dette gjør at elementet blir plassert midt på skjermen */
+  }
+
+  .fedText,
+  .designText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: calc(100% - 30px); /* Dette gir litt luft på hver side */
+    max-width: 100%; /* Sørger for at teksten fyller skjermbredden */
+    margin: 0 auto; /* Midtstiller elementet */
+  }
+
+  .fedText p,
+  .designText p {
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.7em;
+  }
+
+  .experienceLeft {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 300px;
+    max-width: 100%;
+  }
+
+  .experienceHeader h2 {
+    font-size: 3em;
+    text-align: left;
+    width: 330px;
+    max-width: 330px;
+  }
+
+  .experienceHeader .experienceText {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .experienceText {
+    width: 300px;
+    max-width: 300px;
+  }
+
+  .experienceText p {
+    line-height: 1.5;
+    font-size: 1em;
+    width: 300px;
+  }
+
+  .projectsHeader h2 {
+    font-size: 2.5em;
+    text-align: center;
+    width: 100%;
+  }
+
+  .projectsText {
+    width: 300px;
+    max-width: 300px;
+  }
+
+  .projectsText p {
+    line-height: 1.5;
+    font-size: 1em;
+    width: 300px;
+  }
+
+  .contactHeader h2 {
+    font-size: 2.5em;
+    text-align: center;
+    width: 100%;
+  }
+
+  .contactText {
+    width: 300px;
+    max-width: 300px;
+  }
+  .contactText p {
+    line-height: 1.5;
+    font-size: 1em;
+    width: 300px;
   }
 }
