@@ -4,6 +4,9 @@
 
 /* INTRO SECTION START */
 
+body {
+  max-width: width 1500px;
+}
 .introSection {
   display: flex;
   flex-direction: row;
@@ -65,7 +68,7 @@
 .introRight {
   display: flex;
   flex-direction: column;
-  padding-left: 200px;
+  padding-left: 20%;
 }
 
 .fedText,
@@ -268,6 +271,22 @@ body * {
   animation: fadeIn 1.5s ease-out forwards;
 }
 
+@media (min-width: 2000px) {
+  .introText p {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1800) {
+  .introSection {
+    max-width: 1400px;
+  }
+
+  .introLeft {
+    max-width: 800px;
+  }
+}
+
 @media (max-width: 480px) {
   .introSection {
     flex-direction: column;
@@ -280,21 +299,26 @@ body * {
     flex-direction: column;
     justify-content: center;
     margin-right: 0;
-    margin-left: 15%;
+    margin-left: 25%;
     width: 100%;
+  }
+
+  .introText p {
+    text-align: left;
+    font-weight: lighter;
+    line-height: 1em;
+    letter-spacing: 0px;
+  }
+
+  .introHeader h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-left: 35%;
   }
 
   .introSection h1 {
     font-size: 2em;
-    text-align: center;
-    margin-left: 45%;
-  }
-
-  .introText p {
-    text-align: center;
-    font-weight: lighter;
-    font-size: 1em;
-    line-height: 1.2em;
+    text-align: left;
   }
 
   .introText button {
@@ -313,28 +337,14 @@ body * {
 
   .introRight {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 10%;
-    width: 100%;
-    height: 100vh; /* Full height to center vertically */
-  }
-
-  .introRight {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    margin-right: 200px;
+    justify-content: left;
+    margin-right: 100px;
     width: 90%;
   }
 
-  .fedText,
-  .designText {
-    width: auto;
+  .fedHeader h1 {
+    font-size: 2em;
     text-align: center;
-    font-weight: lighter;
-    font-size: 0.5em;
-    line-height: 1em;
+    margin-left: 35%;
   }
 }

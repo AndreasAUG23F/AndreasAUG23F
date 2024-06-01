@@ -39,8 +39,8 @@ ul {
 
 .headerNav a {
   color: #5470d3;
-  transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out,
-    border-radius 0.5s ease-in-out;
+  transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out,
+    border-radius 0.2s ease-in-out;
   text-decoration: none;
   color: #5470d3;
   font-weight: bold;
@@ -91,6 +91,7 @@ ul {
 
 .dropdown-content a:hover {
   background-color: #f1f1f1;
+  transition: none;
 }
 
 .dropdown:hover .dropdown-content {
