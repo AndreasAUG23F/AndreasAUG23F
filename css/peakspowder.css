@@ -78,9 +78,7 @@ button:hover {
   }
 }
 
-/* media queries for iphone x */
-
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .cardIntro {
     display: flex;
     flex-direction: column;
@@ -96,7 +94,7 @@ button:hover {
   .cardIntro p {
     font-size: 1em;
     text-align: center;
-    width: 350px;
+    width: 300px;
     max-width: 400px;
   }
   main {
