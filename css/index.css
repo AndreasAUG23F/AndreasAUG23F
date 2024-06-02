@@ -289,6 +289,90 @@ body * {
   }
 }
 
+/* TABLET STYLES */
+
+@media (max-width: 768px) {
+  .introSection {
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  .introLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 25%;
+    width: 100%;
+  }
+
+  .introText p {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 1em;
+  }
+
+  .introHeader h1 {
+    display: flex;
+    justify-content: left;
+    font-size: 3em;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .introText button {
+    background-color: #5470d3;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+  }
+
+  .introText button a {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+  }
+
+  .introRight {
+    display: flex;
+    justify-content: left;
+    width: 400px;
+    max-width: 375px;
+  }
+
+  h2 {
+    font-size: 2em;
+    width: 420px;
+  }
+
+  .fedHeader h2,
+  .designHeader h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%; /* Dette gjør at elementet blir plassert midt på skjermen */
+  }
+
+  .fedText,
+  .designText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: calc(100% - 30px); /* Dette gir litt luft på hver side */
+    max-width: 100%; /* Sørger for at teksten fyller skjermbredden */
+    margin: 0 auto; /* Midtstiller elementet */
+  }
+
+  .fedText p,
+  .designText p {
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.7em;
+  }
+}
+
 /* MOBILE STYLES */
 
 @media (max-width: 480px) {
