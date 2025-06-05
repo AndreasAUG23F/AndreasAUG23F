@@ -1,28 +1,78 @@
-## Hi there 👋
+# 👋 Hi there, I'm Andreas Abrahamsen
 
-I'm Andreas Abrahamsen, currently studying Front-End Development at Noroff School of Technology and Digital Media.
+🎓 I'm currently studying **Front-End Development** at [Noroff School of Technology and Digital Media](https://www.noroff.no/), and I’m passionate about building accessible, modern, and user-friendly web applications.
 
-Background 🎓
-Prior to diving into the world of web development, I've had a diverse background. I've served as a youth pastor, educator, and even worked as a bodyguard.
+---
 
-Skills 💻
-I'm proficient in using Figma for design, and I have hands-on experience with HTML, CSS, and JavaScript.
+## 🧰 Tech Stack
 
-Projects 🚀
-1. Rainy Days
-A website created as part of my HTML & CSS course. It's a simple e-commerce platform selling high-quality jackets for rainy weather.
+- **Languages:** JavaScript (ES6+), TypeScript, HTML5, CSS3
+- **Frameworks & Tools:** React, React Router, Tailwind CSS, Vite
+- **Design:** Figma
+- **Testing & Validation:** JSDoc, Yup, React Hook Form
+- **Version Control:** Git & GitHub
 
-2. Discovery Labs
-This project was part of my semester at Noroff. It's an interactive website aimed at inspiring curiosity in science and technology.
+---
 
-3. Peaks & Powder
-My final project for the spring 2024 semester. It's an immersive website dedicated to exploring the beauty and thrill of mountain sports and skiing.
+## 🚀 Featured Projects
 
-Interests ❤️
-Outside of coding, I enjoy spending time with my family and friends, staying active through training and Brazilian Jiu-Jitsu, being involved in my local church community, and indulging in my love for music and films.
+### 🔧 JavaScript Frameworks  
+SPA built with **React** and **Tailwind CSS**  
+🔗 [Live Site](https://lazysales.netlify.app) · [Repo](https://github.com/annechh/ca-js-frameworks)
 
-Contact 📧
-If you're interested in collaborating on projects or just want to say hi, feel free to reach out to me at abrahamsen.andreas@gmail.com.
+**Highlights:**
+- Component-driven architecture
+- React Router navigation
+- Form validation and dark-mode support
 
-Let's Collaborate! 🤝
-I'm always open to new ideas and collaborations. If you have any exciting projects in mind or just want to chat about web development, don't hesitate to get in touch. Let's create something awesome together!
+---
+
+### 🛒 Bidify – Semester Project 2  
+Fully functional e-commerce prototype using **React** and Noroff APIs  
+🔗 [Live Site](https://bidify-semesterproject.netlify.app) · [Repo](https://github.com/AndreasAUG23F/Bidify-SemesterProject-2)
+
+**Highlights:**
+- Product listing and category filtering  
+- Cart management using `localStorage`  
+- Mobile-first responsive design
+
+---
+
+### 🌍 Holidaze – Exam Project 2  
+Travel accommodation platform with booking features and map integration  
+🔗 [Live Site](https://holidazer.netlify.app) · [Repo](https://github.com/Andreasjoa23/PE2-Holidaze)
+
+**Highlights:**
+- Accessible UI with ARIA & keyboard support  
+- Lazy loading and code splitting  
+- Map & search integration
+
+---
+
+## 💬 About Me
+
+Before entering tech, I worked as a **youth pastor**, **teacher**, and **bodyguard** – all roles that strengthened my communication, leadership, and problem-solving skills. Now I bring those qualities into my development work.
+
+---
+
+## 🧠 Interests
+
+- Brazilian Jiu-Jitsu 🥋  
+- Music & Film 🎧🎬  
+- Church & Community 🙏  
+- Training & Wellbeing 💪  
+- And of course, building beautiful web experiences 💻
+
+---
+
+## 📬 Contact
+
+Feel free to reach out!
+
+📧 [abrahamsen.andreas@gmail.com](mailto:abrahamsen.andreas@gmail.com)
+
+---
+
+## 🤝 Let’s Collaborate
+
+Open to internships, freelance opportunities, and project collaborations. Let's build something impactful together!
